@@ -54,6 +54,8 @@ export default class PizzaCreator extends Component{
           onMinusToppingClick={this.onMinusToppingClick}
         />
         <SubmitResetButton
+          selectedToppings={this.state.selectedToppings}
+          selectedSize={this.state.selectedSize}
           onSubmitClick={this.onSubmitClick}
           onResetClick={this.onResetClick}
         />
