@@ -23,7 +23,7 @@ const ConfirmationModal = ({
           <div className='pizzas'>
             <div className='pizza'>
               <div>
-                <strong>selectedSize.name Pizza</strong>
+                <strong>{selectedSize.name} Pizza</strong>
                 <br/>
                 <span>{getToppingsString(selectedToppings)}</span>
               </div>
